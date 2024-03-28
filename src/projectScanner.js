@@ -7,7 +7,7 @@ async function analyzeProject (){
     console.log('analyzeProject function called');
 
     // Define excluded folders
-    const excludedFolders = ['node_modules', '.git', 'vendor', '.vscode', 'public', 'resources', 'tests', '.scannerwork']; // Add any folders you want to exclude
+    const excludedFolders = ['node_modules', '.git', 'vendor', '.vscode', 'public', 'resources', 'tests', '.scannerwork', 'dist']; // Add any folders you want to exclude
 
     // Find all files in the workspace
     const files = await vscode.workspace.findFiles('**/*');
