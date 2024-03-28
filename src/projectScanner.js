@@ -1,3 +1,4 @@
+const vscode = require('vscode');
 const { saveFileNames } = require('./fileScanner');
 
 // This method is called when your extension is activated
