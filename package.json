@@ -10,11 +10,11 @@
     "Other"
   ],
   "activationEvents": [],
-  "main": "./extension.js",
+  "main": "./src/extension.js",
   "contributes": {
     "commands": [{
       "command": "openai-scanner.helloWorld",
-      "title": "Hello World"
+      "title": "AI ScanMyProject"
     }]
   },
   "scripts": {
